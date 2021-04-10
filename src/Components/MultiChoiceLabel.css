@@ -1,0 +1,29 @@
+.MultiChoiceLabel{
+    background:rgba(239,239,239);
+    min-width: 10%;
+    max-width: 70%;
+    font-size: medium;
+    font-weight: bold;
+    border:  none;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 255);
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    left: 0;
+}
+.MultiChoiceLabel:hover{
+    background: linear-gradient(to left, #8728E8, #5630E3);
+    color: white;
+}
+.Icon{
+    margin:  10px;
+    align-items: left;
+}
+.Label{
+    margin: 10px;
+    align-items: left;
+}
+
+
+

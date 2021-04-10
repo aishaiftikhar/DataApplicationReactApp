@@ -1,0 +1,40 @@
+
+progress {
+    width: 80%;
+    height: 6px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(239,239,239);
+    display: block;
+    margin:4px;
+  }
+  progress::-webkit-progress-bar{
+
+    background-color: rgba(239,239,239);
+    max-width: 700px;
+    min-width: 300px;
+    height: 6px;
+    border-radius: 3px;
+  }
+  progress::-webkit-progress-value{
+
+    background: linear-gradient(to left, #8728E8, #5630E3);
+    max-width: 700px;
+    min-width: 300px;
+    width: 700px;
+    height: 6px;
+    border-radius: 3px;
+  }
+  .container{
+    max-width: 700px;
+    min-width: 300px;
+    height: 50px;
+  }
+  .title{
+      display: block;
+      color: rgba(0, 0, 0);
+      text-align: left;
+      font-size: medium;
+      font-weight: bold;
+      margin: 4px;
+  }

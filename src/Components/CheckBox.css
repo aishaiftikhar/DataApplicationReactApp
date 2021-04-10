@@ -1,0 +1,20 @@
+
+.CheckBox{
+width: 100px;
+padding: 10px;
+display: inline-block;
+justify-content: left;
+align-items: left;
+}
+.CheckBoxInput{
+    display: inline-block;
+}
+.CheckBoxLabelabel{
+    display: inline-block;
+}
+.CheckBoxLabelabel:checked{
+    background-color: saddlebrown;
+}
+.CheckBoxLabelabel:focus{
+    display: inline-block;
+}

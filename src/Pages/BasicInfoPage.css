@@ -1,0 +1,9 @@
+div{
+    width: 80%;
+    margin:  20px;
+}
+.CheckBoxList{
+    display: flex;
+  justify-content: left;
+  align-items: left;
+}

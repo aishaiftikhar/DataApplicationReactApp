@@ -1,0 +1,129 @@
+.TextField{
+  background:rgba(239,239,239);
+  font-size: 15px;
+  font-weight: normal;
+  border-radius: 5px;
+  color: rgba(50, 50, 50, 255);
+  margin-bottom: 1px;
+  width:  100%;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  height: 40px;
+  padding:10px;
+  padding-top: 14px;;
+}
+div{
+  width: 80%;
+  display: block;
+}
+.InputLabel{
+ margin-left: 10px;;
+  position: absolute;
+  top: 7px;
+  color:#999;
+  left: 0;
+  pointer-events: none;
+  transition: .5s;
+  display: block;
+  
+}
+.TextField:focus {
+
+  border: 1px solid #8728E8
+}
+.TextField:focus ~ .InputLabel
+{
+  top : -3px;
+  left : 0;
+  color: #8728E8;
+  font-size: 15px;
+  font-weight:normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.TextField{
+    background:rgba(239,239,239);
+    min-width: 80;
+    max-width: 300px;
+    height:20px;
+    font-size: small;
+    font-weight: normal;
+    border:  none;
+    border-bottom: none;;
+    border-radius: 5px;
+    color: rgba(70, 70, 70, 255);
+    padding: 10px;
+    margin: 10px;
+}
+
+.TextField input {
+    background:rgba(239,239,239);
+    border:  none;
+    border-bottom: none;;
+    border-radius: 5px;
+  }
+  .TextField input:hover {
+    background-color: orange;
+  }
+  .conTextFieldtainer input:focus {
+    background-color: black;
+    border: 1px solid red;
+    color: purple;
+  }
+  .TextField input:focus::after {
+  color: purple !important ;
+  
+  }
+  
+  .TextField label {
+    height: 20px;
+    top: -6px;
+    color:rgba(70, 70, 70, 255);;
+  }
+  .textField label.Mui-focused {
+    color: orangered !important;
+  }
+  .container label[data-shrink="true"] {
+    top: 0;
+  }*/

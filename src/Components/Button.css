@@ -1,0 +1,20 @@
+
+.buttonClass{
+    display: flex;
+    align-items: left;
+    width: 200px;
+    margin : 10px;
+    border: none;
+}
+.Button{
+    background: linear-gradient(to left, #8728E8, #5630E3);
+    width: 80%;
+    height: 40px;
+    font-size: medium;
+    border:  none;
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 255)
+}
+.Button:focus{
+    outline: none;;
+}

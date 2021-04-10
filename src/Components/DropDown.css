@@ -1,0 +1,15 @@
+select{
+    background:rgba(239,239,239);
+    font-size: 15px;
+    font-weight: normal;
+    border-radius: 5px;
+    color: rgba(50, 50, 50, 255);
+    margin-bottom: 1px;
+    width:  100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    height: 40px;
+    padding:10px;
+    padding-right: 14px;;
+}
